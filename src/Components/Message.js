@@ -1,5 +1,5 @@
-import './styles.module.css';
+import style from './styles.module.css';
 
 export function Message({ myText }) {
-    return <span className='text'>This now here is {myText}</span>
+    return <h2 className={style.text}>This now here is {myText}</h2>
 }
