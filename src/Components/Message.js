@@ -1,5 +1,8 @@
-import './styles.module.css';
+import React from 'react';
+import styles from './styles.module.css';
 
-export function Message({ myText }) {
-    return <span className='text'>This now here is {myText}</span>
-}
+function Message({ myText }) {
+    return <h2 className={styles.text}>This now here is {myText}</h2>
+};
+
+export default Message;
