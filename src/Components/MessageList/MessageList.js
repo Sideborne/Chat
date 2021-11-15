@@ -1,4 +1,4 @@
-export function MessageList({ styles, messageList }) {
+export const MessageList = ({ styles, messageList }) => {
 
     return (
         <ul className={styles.messages}>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export function InputText({ styles, onMessageChange }) {
+export const InputText = ({ styles, onMessageChange }) => {
 
     const [author, setAuthor] = useState('');
     const [text, setText] = useState('');
